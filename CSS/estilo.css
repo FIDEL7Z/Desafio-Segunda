@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    color: #FFFFFF; 
+}
+
+.area-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+    margin-top: -300px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    color: #C5C2C2;
+    margin-bottom: 5px;
+    text-align: start;
+    font-weight: bold;
+}
+
+.login input {
+    background-color: #353535;
+    border-color: #C5C2C2;
+    width: 466px;
+    height: 47px; 
+    border-radius: 4px;
+    border: 2px solid #C5C2C2;
+    color: #C5C2C2;
+    padding: 8px;
+}
+
+.login img {
+    width: 360px;
+    height: 278px;
+    margin-bottom: 20px;
+}
+
+.login .enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login .enviar button {
+    background-color: #2FB23C;
+    width: 191px;
+    height: 67px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px 79px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.login .enviar button:hover {
+    background-color: #1D8E28;
+}
